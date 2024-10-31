@@ -20,6 +20,7 @@
    While making a request to Github, it maintains a dictionary of the first page, last page, current page, previous page and next page numbers. So we can track where we are and when to stop a loop based on this information. This is useful because REST API returns only 30 entries per page. 
 
 3. ***An actionable recommendation for developers based on your analysis***
+
    I have used dataframes in pandas and it is timetaking to run code for 1000's of lines. Use DuckDB in place of dataframes. It is also easily compatible with dataframes and csv. It reduces time drastically.
 
    Using a personalized token for the API request increases the no of requests you make to about 15000 per hour compared to just requesting it.
